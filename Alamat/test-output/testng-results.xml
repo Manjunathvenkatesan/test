@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Zoho CRM - Sign in]]>
+    </line>
+    <line>
+      <![CDATA[login page verified test passed]]>
+    </line>
+    <line>
+      <![CDATA[home page verified test passed]]>
+    </line>
+    <line>
+      <![CDATA[Zoho CRM - Create Potential]]>
+    </line>
+    <line>
+      <![CDATA[home page verified test passed]]>
+    </line>
+    <line>
+      <![CDATA[Zoho CRM - Displaying Custom View Details]]>
+    </line>
+    <line>
+      <![CDATA[potential Page verified test passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="155350" started-at="2019-11-25T11:20:17 IST" finished-at="2019-11-25T11:22:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="155350" started-at="2019-11-25T11:20:17 IST" finished-at="2019-11-25T11:22:53 IST">
+      <class name="Verification.Potential">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Verification.Potential@33f88ab]" name="openBrowser" is-config="true" duration-ms="78597" started-at="2019-11-25T11:20:18 IST" finished-at="2019-11-25T11:21:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Zoho CRM - Sign in]]>
+            </line>
+            <line>
+              <![CDATA[login page verified test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:Verification.Potential@33f88ab]" name="loginToApp" is-config="true" duration-ms="21437" started-at="2019-11-25T11:21:36 IST" finished-at="2019-11-25T11:21:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[home page verified test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="checkNewPotentails()[pri:2, instance:Verification.Potential@33f88ab]" name="checkNewPotentails" duration-ms="25907" started-at="2019-11-25T11:21:58 IST" finished-at="2019-11-25T11:22:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Zoho CRM - Create Potential]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkNewPotentails -->
+        <test-method status="PASS" signature="logOutToApp()[pri:0, instance:Verification.Potential@33f88ab]" name="logOutToApp" is-config="true" duration-ms="1580" started-at="2019-11-25T11:22:24 IST" finished-at="2019-11-25T11:22:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutToApp -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:Verification.Potential@33f88ab]" name="loginToApp" is-config="true" duration-ms="10025" started-at="2019-11-25T11:22:25 IST" finished-at="2019-11-25T11:22:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[home page verified test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="verifyPotentail()[pri:2, instance:Verification.Potential@33f88ab]" name="verifyPotentail" duration-ms="5463" started-at="2019-11-25T11:22:35 IST" finished-at="2019-11-25T11:22:41 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Zoho CRM - Displaying Custom View Details]]>
+            </line>
+            <line>
+              <![CDATA[potential Page verified test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPotentail -->
+        <test-method status="PASS" signature="logOutToApp()[pri:0, instance:Verification.Potential@33f88ab]" name="logOutToApp" is-config="true" duration-ms="9717" started-at="2019-11-25T11:22:41 IST" finished-at="2019-11-25T11:22:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutToApp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Verification.Potential@33f88ab]" name="teardown" is-config="true" duration-ms="2286" started-at="2019-11-25T11:22:50 IST" finished-at="2019-11-25T11:22:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Verification.Potential -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
